@@ -1,0 +1,2 @@
+rootProject.name='afs_client'
+include ':app'
