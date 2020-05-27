@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AFS Client</string>
+    <string name="app_name">AFS Monitor</string>
     <string name="devices">Bluetooth LE Devices</string>
 
     <string name="location_permission_title">Location permission required</string>
@@ -11,4 +11,14 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="monitor_tab">Monitor</string>
+    <string name="stats_tab">Stats</string>
+    <string name="log_tab">Log</string>
+    <string name="connecting_subtitle">Connecting...</string>
+    <string name="not_connected_subtitle">Not connected</string>
+    <string name="connected_subtitle">Connected</string>
+    <string name="connected_toast">Connected</string>
+    <string name="bt_disabled_toast">Bluetooth isn`t enabled</string>
+    <string name="con_failed_toast">Connection failed</string>
+    <string name="con_lost_toast">Connection lost</string>
 </resources>

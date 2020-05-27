@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    tools:context=".fragments.MonitorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewTitle"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="5dp"
+        android:text="Speed" />
+
+    <TextView
+        android:id="@+id/spd_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="65sp"
+        style="@style/TextViewValue"
+        android:text="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewUnit"
+        android:text="m/s" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewTitle"
+        android:layout_columnSpan="2"
+        android:text="Dynamic Pressure" />
+
+    <TextView
+        android:id="@+id/dm_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewValue"
+        android:text="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewUnit"
+        android:text="mmH2O" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewTitle"
+        android:layout_columnSpan="2"
+        android:text="Static Pressure" />
+
+    <TextView
+        android:id="@+id/st_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewValue"
+        android:text="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewUnit"
+        android:text="mmHg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewTitle"
+        android:layout_columnSpan="2"
+        android:text="Temperature" />
+
+    <TextView
+        android:id="@+id/temp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewValue"
+        android:text="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewUnit"
+        android:text="°C" />
+
+</GridLayout>

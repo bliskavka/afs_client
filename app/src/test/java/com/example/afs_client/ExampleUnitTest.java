@@ -12,6 +12,11 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+
+        Measurement measurement = new Measurement("-0.1/-15.5/754/26".getBytes());
+        assertEquals(-0.1f, measurement.getSpeed(), 0.1);
+        assertEquals(-15.5f, measurement.getDynamicPressure(), 0.1);
+        assertEquals(754f, measurement.getStaticPressure(), 0.1);
+        assertEquals(26f, measurement.getTemperature(), 0.1);
     }
 }
